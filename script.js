@@ -9,3 +9,11 @@ if (media >= 7) {
 } else {
   console.log("Reprovado");
 }
+
+function verificarTipo(variavel) {
+  console.log(`A variavel é do tipo ${typeof variavel}`);
+}
+
+verificarTipo("Ola, mundo!");
+verificarTipo(42);
+verificarTipo(true);
