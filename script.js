@@ -27,3 +27,8 @@ const numero = 7;
 for (let i = 1; i <= 10; i++) {
   console.log(`${numero} x ${i} = ${numero * i}`);
 }
+
+const diaSemana = 3;
+const dias = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"];
+
+console.log(dias[diaSemana - 1] || "Dia invalido");
