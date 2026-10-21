@@ -36,3 +36,11 @@ console.log(dias[diaSemana - 1] || "Dia invalido");
 const calcularArea = (base, altura) => base * altura;
 
 console.log(calcularArea(5, 10));
+
+const listaDeCompras = ['Arroz', 'Feijão', 'Batata'];
+
+listaDeCompras.push('Macarrão');
+listaDeCompras.unshift('Suco');
+listaDeCompras.pop();
+
+console.log(listaDeCompras);
