@@ -21,3 +21,9 @@ verificarTipo(true);
 const idade = 20;
 const status = idade >= 18 ? "Maior de idade" : "Menor de idade";
 console.log(status);
+
+const numero = 7;
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`${numero} x ${i} = ${numero * i}`);
+}
