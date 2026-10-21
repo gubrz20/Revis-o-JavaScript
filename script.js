@@ -17,3 +17,7 @@ function verificarTipo(variavel) {
 verificarTipo("Ola, mundo!");
 verificarTipo(42);
 verificarTipo(true);
+
+const idade = 20;
+const status = idade >= 18 ? "Maior de idade" : "Menor de idade";
+console.log(status);
