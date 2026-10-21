@@ -32,3 +32,7 @@ const diaSemana = 3;
 const dias = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"];
 
 console.log(dias[diaSemana - 1] || "Dia invalido");
+
+const calcularArea = (base, altura) => base * altura;
+
+console.log(calcularArea(5, 10));
